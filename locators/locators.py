@@ -1,6 +1,7 @@
 #google
 SearchBarLocator = "//div[@class='YacQv']"
-FirstSearchResultLocator = "//div[@class='yuRUbf']"
+FirstSearchResultLocatorhowdy = "//div[@class='yuRUbf']"
+FirstSearchResultLocatorsubconverter = "//div[@class='TbwUpd NJjxre']"
 
 #howdy
 trojanVpnHeaderLocator = "//div[@id='navbarCollapse2'] //li[@class='nav-item'] //a[text()='Trojan VPN']"
@@ -20,3 +21,8 @@ SGHE1TrojanVPNButtonLocator = "//a[@title='SG-HE 1 Trojan VPN']"
 SGHE1TrojanVPNTxtLocator = "//h3[text()='SG-HE 1 Trojan VPN']"
 SGTrojanAMPButtonLocator = "//a[@title='SG Trojan AMP']"
 SGTrojanAMPTxtLocator = "//h3[text()='SG Trojan AMP']"
+
+#ssh subconverter
+URLImporttextfieldLocator = "//textarea[@class='form-control']"
+LinkSubmitLocator = "//button[@id='submit']"
+SubconverterLocator = "//button[@id='downloadconfig']"
