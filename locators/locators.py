@@ -1,5 +1,6 @@
 #google
 SearchBarLocator = "//div[@class='YacQv']"
+SearchButtonLocator = "//div[@class='FPdoLc lJ9FBc'] //input[@class='gNO89b']"
 FirstSearchResultLocatorhowdy = "//div[@class='yuRUbf']"
 FirstSearchResultLocatorsubconverter = "//div[@class='TbwUpd NJjxre']"
 
