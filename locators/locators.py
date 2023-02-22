@@ -23,6 +23,9 @@ SGHE1TrojanVPNTxtLocator = "//h3[text()='SG-HE 1 Trojan VPN']"
 SGTrojanAMPButtonLocator = "//a[@title='SG Trojan AMP']"
 SGTrojanAMPTxtLocator = "//h3[text()='SG Trojan AMP']"
 
+RemainingAccLocator = "(//div[@class='col-7'] //span)[3]"
+LimitAccountLocator = "(//div[@class='col-5'] //span)[3]"
+
 #ssh subconverter
 URLImporttextfieldLocator = "//textarea[@class='form-control']"
 LinkSubmitLocator = "//button[@id='submit']"
