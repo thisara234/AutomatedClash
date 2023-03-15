@@ -1,7 +1,8 @@
 #google
-SearchBarLocator = "//div[@class='YacQv']"
-SearchButtonLocator = "//div[@class='FPdoLc lJ9FBc'] //input[@class='gNO89b']"
-FirstSearchResultLocatorhowdy = "//div[@class='yuRUbf']"
+SearchBarLocator = "//input[@class='gLFyf']"
+#SearchButtonLocator = "//div[@class='FPdoLc lJ9FBc'] //input[@class='gNO89b']"
+SearchButtonLocator = "//input[@class='gNO89b']"
+FirstSearchResultLocatorhowdy = "//div[@class='byrV5b']"
 FirstSearchResultLocatorsubconverter = "//div[@class='TbwUpd NJjxre']"
 
 #howdy
