@@ -1,7 +1,8 @@
 #google
-SearchBarLocator = "//div[@class='YacQv']"
-SearchButtonLocator = "//div[@class='FPdoLc lJ9FBc'] //input[@class='gNO89b']"
-FirstSearchResultLocatorhowdy = "//div[@class='yuRUbf']"
+SearchBarLocator = "//input[@class='gLFyf']"
+#SearchButtonLocator = "//div[@class='FPdoLc lJ9FBc'] //input[@class='gNO89b']"
+SearchButtonLocator = "//input[@class='gNO89b']"
+FirstSearchResultLocatorhowdy = "//div[@class='byrV5b']"
 FirstSearchResultLocatorsubconverter = "//div[@class='TbwUpd NJjxre']"
 
 #howdy
@@ -23,8 +24,25 @@ SGHE1TrojanVPNTxtLocator = "//h3[text()='SG-HE 1 Trojan VPN']"
 SGTrojanAMPButtonLocator = "//a[@title='SG Trojan AMP']"
 SGTrojanAMPTxtLocator = "//h3[text()='SG Trojan AMP']"
 
-RemainingAccLocator = "(//div[@class='col-7'] //span)[3]"
-LimitAccountLocator = "(//div[@class='col-5'] //span)[3]"
+RemainingAccLocator1 = "(//div[@class='col-7'] //span)[3]" #SG-HE MUX Trojan VPN
+LimitAccountLocator1 = "(//div[@class='col-5'] //span)[3]" #SG-HE MUX Trojan VPN
+
+RemainingAccLocator2 = "(//div[@class='col-7'] //span)[1]" #SG-HE 2 Trojan VPN
+LimitAccountLocator2 = "(//div[@class='col-5'] //span)[1]" #SG-HE 2 Trojan VPN
+
+RemainingAccLocator3 = "(//div[@class='col-7'] //span)[2]" #SG-HE 3 Trojan VPN
+LimitAccountLocator3 = "(//div[@class='col-5'] //span)[2]" #SG-HE 3 Trojan VPN
+
+RemainingAccLocator3 = "(//div[@class='col-7'] //span)[3]" #SG Trojan OVH
+LimitAccountLocator3 = "(//div[@class='col-5'] //span)[3]" #SG Trojan OVH
+
+RemainingAccLocator4 = "(//div[@class='col-7'] //span)[1]" #SG-HE 1 Trojan VPN
+LimitAccountLocator4 = "(//div[@class='col-5'] //span)[1]" #SG-HE 1 Trojan VPN
+
+RemainingAccLocator4 = "(//div[@class='col-7'] //span)[1]" #SG Trojan AMP
+LimitAccountLocator4 = "(//div[@class='col-5'] //span)[1]" #SG Trojan AMP
+
+
 
 #ssh subconverter
 URLImporttextfieldLocator = "//textarea[@class='form-control']"
