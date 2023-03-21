@@ -15,8 +15,9 @@ Click on the Google Search Bar
 
 Click Search Button
         Sleep               1
-        Click Element       ${SearchButtonLocator}
+        Click Button       ${SearchButtonLocator}
 
 Click First result
         Sleep               1
         Click Element       ${FirstSearchResultLocatorhowdy}
+        
