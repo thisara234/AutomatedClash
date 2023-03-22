@@ -2,7 +2,9 @@
 
 Documentation     Keywords for Trojan page functions
 Library           Selenium2Library
-Variables          ./../locators/locators.py
+Resource          ./../Keywords/TrojanfileKeywords.robot
+Variables         ./../locators/locators.py
+
 
 *** Keywords ***
 
@@ -10,7 +12,15 @@ Click Trojan Vpn header
     Click Element                    ${trojanVpnHeaderLocator}
     Sleep                            1
 
+Go to First Page
+    Scroll Element Into View         xpath://nav[@class='text-center']//parent::div
+    Sleep                            3
+    Click Element                    ${FirstPageLocator}
+    Sleep                            1
+
 Go to Second Page
+    Scroll Element Into View         xpath://nav[@class='text-center']//parent::div
+    Sleep                            3
     Click Element                    ${SecondpageLocator}
     Sleep                            1
 
@@ -26,6 +36,7 @@ Select SG-HE 2 Trojan VPN
 
     
 Go to Third Page
+    Scroll Element Into View         xpath://nav[@class='text-center']//parent::div
     Click Element                    ${ThirdpageLocator}
     Sleep                            1
 
@@ -35,6 +46,7 @@ Select SG-HE 3 Trojan VPN
     Sleep                            1
 
 Go to Fourth Page
+    Scroll Element Into View         xpath://nav[@class='text-center']//parent::div
     Click Element                    ${FourthpageLocator}
     Sleep                            1
 
@@ -44,6 +56,7 @@ Select SG-HE 1 Trojan VPN
     Sleep                            1
 
 Go to Fifth Page
+    Scroll Element Into View         xpath://nav[@class='text-center']//parent::div
     Click Element                    ${FifthpageLocator}
     Sleep                            1
 
@@ -51,3 +64,25 @@ Select SG Trojan AMP
     Element Text Should Be           ${SGTrojanAMPTxtLocator}               SG Trojan AMP
     Click Element                    ${SGTrojanAMPButtonLocator}
     Sleep                            1
+
+Go to the Next Page
+    [Arguments]                      ${counter}
+    Log    ${counter}
+    IF  ${counter} == 1
+        Go to First Page
+    END
+    IF  ${counter} == 2
+        Go to Second Page
+    END
+    IF  ${counter} == 3
+        Go to Third Page
+    END
+    IF  ${counter} == 4
+        Go to Fourth Page
+    END
+    IF  ${counter} == 5
+        Go to Fifth Page
+    END
+    
+    
+

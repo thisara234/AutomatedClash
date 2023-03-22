@@ -7,3 +7,7 @@ Library               Selenium2Library
 *** Variables ***
 
 ${KeywordForSearch}        howdy id
+${present}                 False
+#${Result}
+
+${SGHEMUXTrojanVPNpresentYES}    False

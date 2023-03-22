@@ -6,7 +6,10 @@ FirstSearchResultLocatorhowdy = "//div[@class='byrV5b']"
 FirstSearchResultLocatorsubconverter = "//div[@class='TbwUpd NJjxre']"
 
 #howdy
-trojanVpnHeaderLocator = "//div[@id='navbarCollapse2'] //li[@class='nav-item'] //a[text()='Trojan VPN']"
+trojanVpnHeaderLocator = "//li[@class='nav-item'] //a[text()='Trojan VPN']"
+#howdy_ad
+trojanVpnHeaderAdLocator = "//div[@id='card']"
+FirstPageLocator = "//a[@class='page-link']  [text()='2']"
 SecondpageLocator = "//a[@class='page-link']  [text()='2']"
 ThirdpageLocator = "//a[@class='page-link']  [text()='3']"
 FourthpageLocator = "//a[@class='page-link']  [text()='4']"
@@ -23,6 +26,7 @@ SGHE1TrojanVPNButtonLocator = "//a[@title='SG-HE 1 Trojan VPN']"
 SGHE1TrojanVPNTxtLocator = "//h3[text()='SG-HE 1 Trojan VPN']"
 SGTrojanAMPButtonLocator = "//a[@title='SG Trojan AMP']"
 SGTrojanAMPTxtLocator = "//h3[text()='SG Trojan AMP']"
+NavigationPageLocator = "//nav[@class='text-center']//parent::div"
 
 RemainingAccLocator1 = "(//div[@class='col-7'] //span)[3]" #SG-HE MUX Trojan VPN
 LimitAccountLocator1 = "(//div[@class='col-5'] //span)[3]" #SG-HE MUX Trojan VPN
