@@ -17,14 +17,46 @@ Navigate to page two
     TrojanfilePageObjects.Go to Second Page
     
 
-Check and go the server 1
+Check and go the SG-HE MUX Trojan VPN
   FOR    ${counter}    IN RANGE    1    6    1
       Log    ${counter}
       ${SGHEMUXTrojanVPNpresent?}=  Run Keyword And Return Status    Element Should Be Visible   ${SGHEMUXTrojanVPNTxtLocator}
       
       IF  ${SGHEMUXTrojanVPNpresent?} == True
-          ${SGHEMUXTrojanVPNpresentYES}    Set Variable    True
+          # ${SGHEMUXTrojanVPNpresentYES}    Set Variable    True
           TrojanfilePageObjects.Select SG-HE MUX Trojan VPN
+          Exit For Loop
+      END
+      
+      TrojanfilePageObjects.Go to the Next Page    ${counter}
+
+      
+  END
+
+Check and go the SG-HE 2 Trojan VPN
+  FOR    ${counter}    IN RANGE    1    6    1
+      Log    ${counter}
+      ${SGHE2TrojanVPNpresent?}=  Run Keyword And Return Status    Element Should Be Visible   ${SGHE2TrojanVPNTxtLocator}
+      
+      IF  ${SGHE2TrojanVPNpresent?} == True
+          # ${SGHEMUXTrojanVPNpresentYES}    Set Variable    True
+          TrojanfilePageObjects.Select SG-HE 2 Trojan VPN
+          Exit For Loop
+      END
+      
+      TrojanfilePageObjects.Go to the Next Page    ${counter}
+
+      
+  END
+
+Check and go the SG Trojan OVH
+  FOR    ${counter}    IN RANGE    1    6    1
+      Log    ${counter}
+      ${SGTrojanOVHpresent?}=  Run Keyword And Return Status    Element Should Be Visible   ${SGTrojanOVHTxtLocator}
+      
+      IF  ${SGTrojanOVHpresent?} == True
+          # ${SGHEMUXTrojanVPNpresentYES}    Set Variable    True
+          TrojanfilePageObjects.Select SG-HE 3 Trojan VPN
           Exit For Loop
       END
       

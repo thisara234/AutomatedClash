@@ -9,7 +9,7 @@ FirstSearchResultLocatorsubconverter = "//div[@class='TbwUpd NJjxre']"
 trojanVpnHeaderLocator = "//li[@class='nav-item'] //a[text()='Trojan VPN']"
 #howdy_ad
 trojanVpnHeaderAdLocator = "//div[@id='card']"
-FirstPageLocator = "//a[@class='page-link']  [text()='2']"
+FirstPageLocator = "//a[@class='page-link']  [text()='1']"
 SecondpageLocator = "//a[@class='page-link']  [text()='2']"
 ThirdpageLocator = "//a[@class='page-link']  [text()='3']"
 FourthpageLocator = "//a[@class='page-link']  [text()='4']"

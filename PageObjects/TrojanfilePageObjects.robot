@@ -13,13 +13,13 @@ Click Trojan Vpn header
     Sleep                            1
 
 Go to First Page
-    Scroll Element Into View         xpath://nav[@class='text-center']//parent::div
+    Scroll Element Into View         //h5[text()='Information']//parent::div
     Sleep                            3
     Click Element                    ${FirstPageLocator}
     Sleep                            1
 
 Go to Second Page
-    Scroll Element Into View         xpath://nav[@class='text-center']//parent::div
+    Scroll Element Into View         //h5[text()='Information']//parent::div
     Sleep                            3
     Click Element                    ${SecondpageLocator}
     Sleep                            1
@@ -36,17 +36,17 @@ Select SG-HE 2 Trojan VPN
 
     
 Go to Third Page
-    Scroll Element Into View         xpath://nav[@class='text-center']//parent::div
+    Scroll Element Into View         //h5[text()='Information']//parent::div
     Click Element                    ${ThirdpageLocator}
     Sleep                            1
 
 Select SG-HE 3 Trojan VPN
-    Element Text Should Be           ${SGHEMUXTrojanVPNTxtLocator}              SG-HE 3 Trojan VPN
+    Element Text Should Be           ${SGHE3TrojanVPNTxtLocator}              SG-HE 3 Trojan VPN
     Click Element                    ${SGHE3TrojanVPNButtonLocator}
     Sleep                            1
 
 Go to Fourth Page
-    Scroll Element Into View         xpath://nav[@class='text-center']//parent::div
+    Scroll Element Into View         //h5[text()='Information']//parent::div
     Click Element                    ${FourthpageLocator}
     Sleep                            1
 
@@ -56,7 +56,7 @@ Select SG-HE 1 Trojan VPN
     Sleep                            1
 
 Go to Fifth Page
-    Scroll Element Into View         xpath://nav[@class='text-center']//parent::div
+    Scroll Element Into View         //h5[text()='Information']//parent::div
     Click Element                    ${FifthpageLocator}
     Sleep                            1
 
