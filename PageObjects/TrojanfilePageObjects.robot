@@ -25,11 +25,13 @@ Go to Second Page
     Sleep                            1
 
 Select SG-HE MUX Trojan VPN
+    Scroll Element Into View         //nav[@class='text-center']//parent::div
     Element Text Should Be           ${SGHEMUXTrojanVPNTxtLocator}            SG-HE MUX Trojan VPN
     Click Element                    ${SGHEMUXTrojanVPNButtonLocator}
     Sleep                            1
 
 Select SG-HE 2 Trojan VPN
+    Scroll Element Into View         //nav[@class='text-center']//parent::div
     Element Text Should Be           ${SGHE2TrojanVPNTxtLocator}              SG-HE 2 Trojan VPN
     Click Element                    ${SGHE2TrojanVPNButtonLocator}
     Sleep                            1
@@ -41,6 +43,7 @@ Go to Third Page
     Sleep                            1
 
 Select SG-HE 3 Trojan VPN
+    Scroll Element Into View         //nav[@class='text-center']//parent::div
     Element Text Should Be           ${SGHE3TrojanVPNTxtLocator}              SG-HE 3 Trojan VPN
     Click Element                    ${SGHE3TrojanVPNButtonLocator}
     Sleep                            1
@@ -51,6 +54,7 @@ Go to Fourth Page
     Sleep                            1
 
 Select SG-HE 1 Trojan VPN
+    Scroll Element Into View         //nav[@class='text-center']//parent::div
     Element Text Should Be           ${SGHE1TrojanVPNTxtLocator}               SG-HE 1 Trojan VPN
     Click Element                    ${SGHE1TrojanVPNButtonLocator}
     Sleep                            1
@@ -61,6 +65,7 @@ Go to Fifth Page
     Sleep                            1
 
 Select SG Trojan AMP
+    Scroll Element Into View         //nav[@class='text-center']//parent::div
     Element Text Should Be           ${SGTrojanAMPTxtLocator}               SG Trojan AMP
     Click Element                    ${SGTrojanAMPButtonLocator}
     Sleep                            1
